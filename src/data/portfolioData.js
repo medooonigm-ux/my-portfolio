@@ -4,6 +4,7 @@ import certCreativa from '../assets/certificates/creativa-uiux.jpg';
 import certItcRecognition from '../assets/certificates/itc-recognition.jpg';
 import certItcAttendance from '../assets/certificates/itc-attendance.jpg';
 import certDepi from '../assets/certificates/depi-certificate.jpg';
+import certNtiPentest from '../assets/certificates/nti-pentest.jpg';
 
 export const portfolioData = {
   personal: {
@@ -249,13 +250,11 @@ export const portfolioData = {
       track: "Penetration Testing & Security Assessment",
       organization: "National Telecommunication Institute (NTI)",
       duration: "Intensive Cybersecurity Program",
-      status: "Training Completed (Certificate in Issuance)",
       topics: ["Reconnaissance", "Network Mapping", "Vulnerability Assessment", "Metasploit", "Security Fundamentals"],
-      hasCertificate: false,
-      isPendingCertificate: true,
-      image: null,
+      hasCertificate: true,
+      image: certNtiPentest,
       imagePlaceholder: null,
-      note: "Finished the comprehensive practical penetration testing training program at NTI. Official physical certificate issuance is in progress."
+      note: "Successfully completed the practical penetration testing training program at NTI."
     },
     {
       id: "depi",
