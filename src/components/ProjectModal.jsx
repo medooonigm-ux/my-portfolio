@@ -55,6 +55,17 @@ export default function ProjectModal({ project, onClose }) {
         {/* Content Body */}
         <div className="p-6 overflow-y-auto space-y-6 text-sm sm:text-base">
           
+          {/* Project Image Preview */}
+          {project.image && (
+            <div className="w-full max-h-72 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 shadow-lg">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover object-center max-h-72"
+              />
+            </div>
+          )}
+
           {/* Highlight Badge if applicable */}
           {project.highlightBadge && (
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-mono">
