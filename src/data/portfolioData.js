@@ -8,9 +8,13 @@ import certNtiPentest from '../assets/certificates/nti-pentest.jpg';
 
 import projectAstra from '../assets/projects/astra.jpg';
 import projectMovie from '../assets/projects/movie.png';
-import projectBakery from '../assets/projects/bakery.png';
-import projectSafwat from '../assets/projects/safwat.jpg';
+import projectBakery from '../assets/projects/bakery.jpg';
+import projectRestaurant from '../assets/projects/restaurant.jpg';
+import projectPortfolio1 from '../assets/projects/portfolio1.jpg';
+import projectLogin from '../assets/projects/login.png';
+import projectSafwatPortfolio from '../assets/projects/safwat-portfolio.jpg';
 import projectSafwatProject from '../assets/projects/safwat-project.jpg';
+import projectMotorz from '../assets/projects/motorz.png';
 
 export const portfolioData = {
   personal: {
@@ -89,19 +93,19 @@ export const portfolioData = {
     },
     {
       id: "motorz-site",
-      title: "Motorz — Car Dealership Platform",
+      title: "موتورز — Car Dealership Platform",
       category: "frontend",
       featured: true,
       technologies: ["React 18", "JavaScript", "Vite", "Wikipedia API", "Responsive CSS"],
       description: "Modern automotive marketplace and car dealership web application featuring real-time vehicle filtering by category, dynamic price formatting in EGP, and Wikipedia API media integration.",
       liveUrl: "https://medooonigm-ux.github.io/Motorz-site/",
       githubUrl: "https://github.com/medooonigm-ux/Motorz-site",
-      image: null,
+      image: projectMotorz,
       highlightBadge: "React Automotive App",
     },
     {
       id: "client-birthday",
-      title: "Interactive Celebration Website",
+      title: "لكِ ❤ — Interactive Celebration Website",
       category: "frontend",
       featured: false,
       technologies: ["HTML5", "CSS3", "JavaScript", "Interactive Audio", "Typewriter Effect"],
@@ -119,11 +123,11 @@ export const portfolioData = {
       description: "A custom personal portfolio website built for a client, highlighting personal branding, work showcase, cyber security aesthetic, and responsive design across all devices.",
       liveUrl: "https://medooonigm-ux.github.io/portofolio-safwat/",
       githubUrl: "https://github.com/medooonigm-ux/portofolio-safwat",
-      image: projectSafwat,
+      image: projectSafwatPortfolio,
     },
     {
       id: "login-page",
-      title: "Interactive Authentication System",
+      title: "Login System — Authentication UI",
       category: "frontend",
       featured: false,
       isCompact: true,
@@ -131,33 +135,33 @@ export const portfolioData = {
       description: "Modern authentication UI screen featuring focused form styling, smooth tab switching between Sign In and Registration, and real-time input validation.",
       liveUrl: "https://medooonigm-ux.github.io/Page-Login/",
       githubUrl: "https://github.com/medooonigm-ux/login",
-      image: null,
+      image: projectLogin,
     },
     {
       id: "portfolio-v1",
-      title: "Personal Portfolio v1",
+      title: "NIGM — Personal Portfolio v1",
       category: "frontend",
       featured: false,
       technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       description: "The initial personal portfolio edition built with core web technologies, featuring clean section transitions, skill showcase, and responsive styling.",
       liveUrl: "https://medooonigm-ux.github.io/portofolio-1/",
       githubUrl: "https://github.com/medooonigm-ux/portofolio-1",
-      image: null,
+      image: projectPortfolio1,
     },
     {
       id: "restaurant-website",
-      title: "Restaurant Website",
+      title: "Bella Bites — Restaurant Website",
       category: "frontend",
       featured: false,
       technologies: ["HTML5", "CSS3", "JavaScript"],
       description: "A modern, responsive restaurant landing page with an interactive culinary menu, reservation visual layout, and smooth mobile navigation.",
       liveUrl: "https://resturant-1-mu.vercel.app/",
       githubUrl: "https://github.com/medooonigm-ux/resturant",
-      image: null,
+      image: projectRestaurant,
     },
     {
       id: "bakery-website",
-      title: "Bakery Website",
+      title: "Family Bakery — Artisanal Bakery Website",
       category: "frontend",
       featured: false,
       technologies: ["HTML5", "CSS3", "JavaScript"],
